@@ -10,7 +10,7 @@ import Link from 'next/link';
 import Image from 'next/image'
 
 
-function Client() {
+function ClientComp() {
    
     return (        
         <div>
@@ -248,4 +248,4 @@ function Client() {
         </div>    
     )
 }
-export default Client;
+export default ClientComp;

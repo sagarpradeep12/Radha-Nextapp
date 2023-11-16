@@ -1,15 +1,10 @@
 'use client'
 import React from "react";
-
-
-
-
-
 import Image from 'next/image'
 
 
 
-function index() {
+function ContactComp() {
    
     return (        
         <div>
@@ -110,4 +105,4 @@ function index() {
         </div>    
     )
 }
-export default index
+export default ContactComp

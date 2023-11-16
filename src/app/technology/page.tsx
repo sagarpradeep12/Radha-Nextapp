@@ -30,7 +30,7 @@ var settings1 = {
   slidesToScroll: 1
 };
 
-function index() {
+function Technology() {
    
     return (        
         <div>
@@ -297,4 +297,4 @@ function index() {
         </div>    
     )
 }
-export default index
+export default Technology

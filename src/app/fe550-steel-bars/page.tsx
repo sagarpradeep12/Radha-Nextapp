@@ -5,7 +5,7 @@ import * as React from "react";
 
 import Image from 'next/image'
 
-function index() {
+function Fe550steelbars() {
    
     return (        
         <div>
@@ -68,4 +68,4 @@ function index() {
         </div>    
     )
 }
-export default index
+export default Fe550steelbars

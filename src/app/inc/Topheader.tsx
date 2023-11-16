@@ -17,7 +17,7 @@ function TopheaderComponent() {
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>                        
                     </button>
-                    <Link className="navbar-brand" href="/">
+                    <Link className="navbar-brand" href="/home">
                     <Image
               src="/assets/images/logo01.jpg"
               alt="radhatmt logo"

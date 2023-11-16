@@ -31,7 +31,7 @@ var settings1 = {
   slidesToScroll: 1
 };
 
-function index() {
+function Radha550d() {
    
     return (        
         <div>
@@ -92,4 +92,4 @@ function index() {
         </div>    
     )
 }
-export default index
+export default Radha550d
