@@ -40,7 +40,7 @@ function HeaderComponent() {
                                 <li><Link href="/fe550-steel-bars">Radha TMT 550</Link></li>                        
                             </ul>
                             </li>
-                            <li><Link href="/technology">Technology</Link></li>                        
+                            <li><Link href="/technology">Technology</Link></li>                         
                             <li><Link href="clients/">Clients</Link></li>                              
                             <li><Link href="/contact-us">Contact Us</Link></li>
                             <span className="extranav">
