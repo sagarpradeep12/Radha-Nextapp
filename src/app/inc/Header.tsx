@@ -12,10 +12,6 @@ function HeaderComponent() {
     setText('This is real text');
    }*/
 
-
-
-
-
   const [isActive, setActive] = useState(false);
 
   const handleClick = () => {
