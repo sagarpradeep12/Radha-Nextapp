@@ -17,7 +17,18 @@ var settings0 = {
   speed: 500,
   autoplay:true,
   slidesToShow: 3,
-  slidesToScroll: 1
+  slidesToScroll: 1,
+  responsive: [    
+    {
+      breakpoint: 600,
+      settings: {
+        dots:true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 1
+      }
+    }
+  ]
 };
 
 var settings1 = {

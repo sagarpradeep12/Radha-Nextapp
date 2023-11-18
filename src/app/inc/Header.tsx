@@ -17,9 +17,31 @@ function HeaderComponent() {
   const handleClick = () => {
     setActive(!isActive);
   };    
+
+  const [userName,setUserName] = useState("Sagar");
+  function changeuserName(){
+    setUserName("Pradeep");
+  }
+
+  const [count, setCount] = useState(0);
+  const incrementCount = () => {
+    setCount(count + 1);
+  };
+  const decrementCount = () =>{
+    if(count>0){
+      setCount(count - 1);  
+    }    
+  }
     
     return (                
         <div>
+            <p>User Name: {userName}</p>
+            
+            <button onClick={changeuserName}>Change User Name</button><br/><br/>
+            <button onClick={decrementCount}>-</button>
+            <span>  {count} </span>        
+            <button onClick={incrementCount}>+</button>
+            <br/>
             <nav className="navbar navbar-default">
                 <div className='container'>   
                 
